@@ -22,5 +22,14 @@ git add .
 --Troca o branch de master para main
 git branch -m master main
 
+--Commit
+git commit -m "Comentario"
+
+--Apontar repositorio
+git remote add origin [link]
+
+--Primeiro git push necessario
+git push -u origin main
+
 --Envia as atualizações para o github
 git push 
